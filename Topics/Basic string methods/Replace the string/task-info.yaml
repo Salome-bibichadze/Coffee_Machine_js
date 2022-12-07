@@ -1,0 +1,44 @@
+type: code
+files:
+- name: main.js
+  visible: true
+  text: |-
+    function replaceString(data) {
+        let replacedStr = ...
+        ...
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17757#comment
+status: Failed
+feedback:
+  message: |
+    Failed. Runtime error
+
+    This is a sample test from the problem statement!
+
+    Test input:
+    A skunk sat on a stun and thunk the stun stumpk, but the stun thunk the skunk stumpk
+    Correct output:
+    A skunk sat on a stump and thunk the stump stumpk, but the stump thunk the skunk stumpk
+
+    Your code output:
+
+
+    Error:
+    /sandbox/main.js:3
+        data.replaceAll("stun", "stump");
+             ^
+
+    TypeError: data.replaceAll is not a function
+        at replaceString (/sandbox/main.js:3:10)
+        at Object.<anonymous> (/sandbox/main.js:6:13)
+        at Module._compile (internal/modules/cjs/loader.js:688:30)
+        at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+        at Module.load (internal/modules/cjs/loader.js:598:32)
+        at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+        at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+        at Function.Module.runMain (internal/modules/cjs/loader.js:741:12)
+        at startup (internal/bootstrap/node.js:285:19)
+        at bootstrapNodeJSCore (internal/bootstrap/node.js:739:3)
+  time: "Wed, 07 Dec 2022 17:03:14 UTC"
+record: -1
